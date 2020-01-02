@@ -1,0 +1,13 @@
+{
+  "name": "topology-view",
+  "version": "0.0.1",
+  "description": "For view.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "topology",
+    "view"
+  ],
+  "author": "alsmile123@qq.com",
+  "license": "MIT"
+}
