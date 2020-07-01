@@ -2,6 +2,9 @@
 
 A view tool for topology.
 
+# download topology.bundle.js
+https://www.npmjs.com/package/topology-bundle
+
 # How to run
 
 ```
