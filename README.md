@@ -6,7 +6,7 @@ A view tool for topology.
 
 ```
 npm install -g http-server
-cd src
+
 http-server
 // open the http://127.0.0.1:8080 on browser
 ```

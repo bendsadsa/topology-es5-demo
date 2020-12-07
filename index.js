@@ -1,8 +1,8 @@
 function fetch(url, cb) {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", url, true);
+  xhr.open('GET', url, true);
   xhr.send();
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
       cb && cb(xhr.responseText);
     }
@@ -28,14 +28,13 @@ function getNode(result, nodes, tag) {
   }
 }
 
-var canvas = new Le5leTopology.Topology("topo-canvas", {
-  on: function(event, data) {
+var canvas = new Le5leTopology.Topology('topo-canvas', {
+  on: function (event, data) {
     console.log(event, data);
-    
-  }
+  },
 });
 
-fetch("/data.json", function(text) {
+fetch('/data.json', function (text) {
   var data = JSON.parse(text);
   // 锁定画布，禁止编辑
   data.locked = 1;
@@ -44,23 +43,23 @@ fetch("/data.json", function(text) {
 
   // 动画演示示例
   var cnt = 0;
-  var colors = ["red", "blue", "yellow"];
+  var colors = ['red', 'blue', 'yellow'];
   setInterval(() => {
     ++cnt;
     var nodes = [];
-    getNode(nodes, canvas.data.nodes, "testImage");
+    getNode(nodes, canvas.data.nodes, 'testImage');
     for (var i = 0; i < nodes.length; i++) {
       if (cnt % 2) {
-        nodes[i].image = "/image/s01g_374d46e9c71c823a.png";
+        nodes[i].image = '/image/s01g_374d46e9c71c823a.png';
       } else {
-        nodes[i].image = "/image/g02__bdfcbc32cfc689bc.png";
+        nodes[i].image = '/image/g02__bdfcbc32cfc689bc.png';
       }
     }
 
     nodes = [];
-    getNode(nodes, canvas.data.nodes, "testNum");
+    getNode(nodes, canvas.data.nodes, 'testNum');
     for (var i = 0; i < nodes.length; i++) {
-      nodes[i].text = +nodes[i].text + 1 + "";
+      nodes[i].text = +nodes[i].text + 1 + '';
       nodes[i].font.color = colors[cnt % 3];
     }
     canvas.render();

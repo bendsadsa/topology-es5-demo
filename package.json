@@ -9,5 +9,8 @@
     "view"
   ],
   "author": "alsmile123@qq.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "topology-bundle": "^0.2.26"
+  }
 }
