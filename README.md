@@ -10,6 +10,8 @@ https://www.npmjs.com/package/topology-bundle
 ```
 npm install -g http-server
 
+(c)npm install
+
 http-server
 // open the http://127.0.0.1:8080 on browser
 ```
