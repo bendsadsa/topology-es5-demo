@@ -34,6 +34,12 @@ var canvas = new Le5leTopology.Topology('topo-canvas', {
   },
 });
 
+// 等待js加载
+setTimeout(() => {
+  window.registerTools();
+  window.registerIot({ key: '', value: '' });
+}, 1000);
+
 fetch('/data.json', function (text) {
   var data = JSON.parse(text);
   // 锁定画布，禁止编辑

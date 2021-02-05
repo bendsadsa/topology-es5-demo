@@ -30,10 +30,10 @@ regenerator-runtime@^0.13.4:
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.7.tgz?cache=0&sync_timestamp=1595456367497&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha1-ysLazIoepnX+qrrriugziYrkb1U=
 
-topology-bundle@^0.2.26:
-  version "0.2.26"
-  resolved "https://registry.npm.taobao.org/topology-bundle/download/topology-bundle-0.2.26.tgz#b9885ca439908933a9c615b9206c6b07103ae5f0"
-  integrity sha1-uYhcpDmQiTOpxhW5IGxrBxA65fA=
+topology-bundle@latest:
+  version "0.3.28"
+  resolved "https://registry.npm.taobao.org/topology-bundle/download/topology-bundle-0.3.28.tgz#5831f5552daafab9c11dd10ab540f35614b207b2"
+  integrity sha1-WDH1VS2q+rnBHdEKtUDzVhSyB7I=
   dependencies:
     "@babel/polyfill" "^7.5.5"
     core-js "3.3.5"

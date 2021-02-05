@@ -11,6 +11,6 @@
   "author": "alsmile123@qq.com",
   "license": "MIT",
   "dependencies": {
-    "topology-bundle": "^0.2.26"
+    "topology-bundle": "latest"
   }
 }
