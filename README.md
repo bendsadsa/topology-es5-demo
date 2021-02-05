@@ -2,17 +2,19 @@
 
 A view tool for topology.
 
-# download topology.bundle.js
-https://www.npmjs.com/package/topology-bundle
-
 # How to run
 
 ```
+// install http-server
 npm install -g http-server
 
-(c)npm install
+// install bundle.js
+npm install
 
+// serve
 http-server
+
+
 // open the http://127.0.0.1:8080 on browser
 ```
 
